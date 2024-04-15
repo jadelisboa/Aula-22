@@ -7,8 +7,8 @@
     <title> Dias da semana </title>
 
     <script>
-        $Semana: prompt("Digite o dia da semana")
-        $Finals: ""
+        $Semana = prompt("Digite o dia da semana")
+        $Finals = ""
 
         switch ($Semana) {
             case "Segunda - Feira":
