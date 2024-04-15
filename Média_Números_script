@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Média de números </title>
+
+ <script>
+ $numero1 = prompt ("Digite um número: ")
+ $numero2 = prompt ("Digite o 2º número: ")
+ $numero3 = prompt ("Digite o 3º número: ")
+ $media = (parseInt($numero1) + parseInt($numero2) + parseInt($numero3)) /3 
+ 
+ document.write("<center>")
+ document.writeln($numero1) 
+ document.write("<br>")
+ document.writeln($numero2)
+ document.write("<br>") 
+ document.writeln($numero3)
+ document.write("<br>") 
+ document.writeln("<font size = '7'>A média dos números é: " + $media) ("</font>")  
+
+
+ </script>
+</head>
+<body>
+
+</body>
+</html>
