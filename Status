@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Status </title>
+
+    <script>
+         document.write("<center>")
+        $idade = prompt("Digite a idade: ")
+        $status = ""
+        
+        if ($idade < 12) 
+        {
+            $status = "Criança"
+            document.write("<img src = 'img/Infancia.png' width='40%'>")
+        }
+        else if($idade < 21) 
+        {
+            $status = "Jovem"
+            document.write("<img src = 'img/jovem.jpg' width='50%'>")
+        }
+        else if ($idade < 60) 
+        {
+            $status = "Adulto"
+            document.write("<img src = 'img/adulto.jpg' width='50%' >") //certo
+        }
+
+          else 
+        {
+            $status = "Idoso"
+            document.write("<img src = 'img/idoso.jpg' width='40%'>")
+        }
+        document.write("</center>")
+
+        document.write("<center>")
+        document.writeln("Sua idade é de: " + $idade)
+        document.writeln("Seu status é de : " + $status)
+        document.write("</center>")
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
