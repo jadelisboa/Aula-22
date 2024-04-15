@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        $porta = prompt("Escolha o número de uma das portas")
+        switch ($porta) {
+            case "1":
+                document.write("<img src='img/pc gamer.jpg' width='100%'>")
+                break
+            case "2":
+                document.write("<img src = 'img/frigideira.jpg' width='100%'>")
+                break
+            case "3":
+                document.write("<img src = 'img/bmw.webp' width='100%'>")
+                break
+            case "4":
+                document.write("<img src = 'img/monstro.webp' width='100%'>")
+                break
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
