@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+$mes: prompt ("Digite um número de 1 até 12 para os meses:")
+switch($mes)
+{
+    case "1": 
+    document.write("Janeiro")
+    document.write("Verão")
+    break
+    case "2":
+    document.write("Fevereiro")
+    document.write("Verão")
+    break
+    case "3":
+    document.write("Março")
+    document.write("Outono")
+    break
+    case "4":
+    document.write("Abril")
+    document.write("Outono")
+    break
+    case "5":
+    document.write("Maio")
+    document.write("Outono")
+    break
+    case "6":
+    document.write("Junho")
+    document.write("Inverno")   
+    break
+    case "7":
+    document.write("Julho")
+    document.write("Inverno")
+    break
+    case "8":
+    document.write("Agosto")
+    document.write("Inverno")
+    break
+    case "9":
+    document.write("Setembro")
+    document.write("Primavera")
+    break
+    case "10":
+    document.write("Outubro")
+    document.write("Primavera")
+    break
+    case "11":
+    document.write("Novembro")
+    document.write("Primavera")
+    break
+    case "12":
+    document.write("Dezembro")
+    document.write("Verão")
+    break
+}
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>
