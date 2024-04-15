@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Estoque </title>
+
+    <script>
+        $qntd = prompt("Quantas peças possui no estoque?")
+        $resul = ""
+
+        document.write("<center>")
+        document.write("<font color = 'purple' size = '7'>" + "Estoque" + "</font>")
+
+        document.write("<br><br>")
+
+        document.write("<table border = 1 width = 500>")
+        document.write("<tr>")
+        document.write("<td width= '225' align = 'center'> <b> Quantidade </b> </td>")
+        document.write("<td width= '110' align = 'center'> <b> Estoque </b> </td>")
+        document.write("</tr>")
+        document.write("</center>")
+
+
+        if ($qntd < 50) {
+            $resul = "Baixo"
+        document.write("<tr align = 'center'>")
+        document.write("<td width = '225'>" + $qntd + "</td>")
+        document.write("<td width = '225'>" + $resul + "</td>")
+        document.write("</tr>")
+        document.write("</table>")
+        }
+        else if ($qntd < 100) {
+            $resul = "Normal"
+        document.write("<tr align = 'center'>")
+        document.write("<td width= '225'>" + $qntd + "</td>")
+        document.write("<td width= '225'>" + $resul + "</td>")
+        document.write("</tr>")
+        document.write("</table>")
+        }
+        else {
+            $resul = "Alto"
+        document.write("<tr align = 'center'>")
+        document.write("<td width= '225'>" + $qntd + "</td>")
+        document.write("<td width= '225'>" + $resul + "</td>")
+        document.write("</tr>")
+        document.write("</table>")
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
