@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Instituto Nacional do Seguro Social  </title>
+
+    <script>
+        $salario = prompt("Digite seu salário: ")
+        $porcentagem = ""
+        $porcentagemA = ""
+        $valorI = ""
+
+        //Salário de contribuição	    \  Alíquota
+        //Até R$ 1.100,00	            \ 7.5%
+        //R$ 1.100,01 até R$ 2.203,48	\  9%
+        //R$ 2.203,49 até R$ 3.305,22	\ 12%
+        //R$ 3.305,23 até R$ 6.433,57	\ 14%
+
+        document.write("<center>")
+        document.write("<font color = 'Red' size = '7'>" + "Instituto Nacional do Seguro Social " + "</font>")
+        document.write("<br><br>")
+
+        document.write("<table border = 1 width = 500>")
+        document.write("<tr>")
+        document.write("<td width= '225' align = 'center'> <b> Salário </b> </td>")
+        document.write("<td width= '110' align = 'center'> <b> Porcentagem </b> </td>")
+        document.write("<td width= '110' align = 'center'> <b> Valor INSS </b> </td>")
+        document.write("</tr>")
+        document.write("</center>")
+
+        if ($salario < 1100.01) {
+            $porcentagem = ("7.5%")
+            $porcentagemA = ("0.075")
+            $valorI = ($salario * $porcentagemA)
+            document.write("<tr align = 'center'>")
+            document.write("<td width = '225'>" + $salario + "</td>")
+            document.write("<td width = '225'>" + $porcentagem + "</td>")
+            document.write("<td width = '225'>" + $valorI + "</td>")
+            document.write("</tr>")
+            document.write("</table>")
+        }
+
+        else if ($salario < 2203.49) {
+            $porcentagem = ("9%")
+            $porcentagemA = ("0.09")
+            $valorI = ($salario * $porcentagemA)
+            document.write("<tr align = 'center'>")
+            document.write("<td width = '225'>" + $salario + "</td>")
+            document.write("<td width = '225'>" + $porcentagem + "</td>")
+            document.write("<td width = '225'>" + $valorI + "</td>")
+            document.write("</tr>")
+            document.write("</table>")
+        }
+
+        else if ($salario < 3305.23) {
+            $porcentagem = ("12%")
+            $porcentagemA = ("0.12")
+            $valorI = ($salario * $porcentagemA)
+            document.write("<tr align = 'center'>")
+            document.write("<td width = '225'>" + $salario + "</td>")
+            document.write("<td width = '225'>" + $porcentagem + "</td>")
+            document.write("<td width = '225'>" + $valorI + "</td>")
+            document.write("</tr>")
+            document.write("</table>")
+        }
+
+        else {
+            $porcentagem < ("14%")
+            $porcentagemA = ("0.14")
+            $valorI = ($salario * $porcentagemA)
+            document.write("<tr align = 'center'>")
+            document.write("<td width = '225'>" + $salario + "</td>")
+            document.write("<td width = '225'>" + $porcentagem + "</td>")
+            document.write("<td width = '225'>" + $valorI + "</td>")
+            document.write("</tr>")
+            document.write("</table>")
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
